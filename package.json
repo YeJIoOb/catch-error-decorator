@@ -1,6 +1,6 @@
 {
   "name": "catch-error-decorator",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "Method or function decorator. You have pass the parameters to call catchFunction on error by throw function, u can prevent throw error from function and log it in catchFunction, if you want",
   "main": "lib/main.js",
   "types": "lib/main.d.ts",
@@ -8,7 +8,15 @@
     "test": "mocha -r ts-node/register tests/**/test.ts",
     "build": "tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YeJIoOb/catch-error-decorator.git"
+  },
   "author": "Mikhail Afanasyev",
+  "homepage": "https://github.com/YeJIoOb/catch-error-decorator#readme",
+  "bugs": {
+    "url": "https://github.com/YeJIoOb/catch-error-decorator/issues"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.0.4",
