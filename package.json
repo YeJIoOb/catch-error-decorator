@@ -1,0 +1,23 @@
+{
+  "name": "catch-error-decorator",
+  "version": "0.0.2",
+  "description": "Method or function decorator. You have pass the parameters to call catchFunction on error by throw function, u can prevent throw error from function and log it in catchFunction, if you want",
+  "main": "lib/main.js",
+  "types": "lib/main.d.ts",
+  "scripts": {
+    "test": "mocha -r ts-node/register tests/**/test.ts",
+    "build": "tsc"
+  },
+  "author": "Mikhail Afanasyev",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/mocha": "^2.2.44",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "mocha-typescript": "^1.1.12",
+    "reflect-metadata": "^0.1.10",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.1"
+  }
+}
