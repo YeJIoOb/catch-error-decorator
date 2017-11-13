@@ -15,7 +15,7 @@ const mocha_typescript_1 = require("mocha-typescript");
 const tryCatchCallback = (errMessage, errStack, funcName, className, context, args) => {
     // UNCOMMENT NEXT LINE IF U WANT SEE CALLBACK IN ACTION
     // console.log(errMessage, errStack, funcName, className, args);
-    // console.log(context, funcName, className, args);
+    // console.log(funcName, className, args);
 };
 function throwAlarm() {
     throw new Error('alarm');

@@ -6,7 +6,7 @@ import { suite, test } from "mocha-typescript";
 const tryCatchCallback: CatchCallback = (errMessage: string, errStack: string, funcName: string, className: string, context: any, args: any[]) => {
     // UNCOMMENT NEXT LINE IF U WANT SEE CALLBACK IN ACTION
     // console.log(errMessage, errStack, funcName, className, args);
-    // console.log(context, funcName, className, args);
+    // console.log(funcName, className, args);
 }
 
 function throwAlarm() {

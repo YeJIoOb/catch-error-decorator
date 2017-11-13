@@ -65,7 +65,7 @@ export function catchError<T>(options: CatchErrorOptions | CatchCallback, throwE
         if (typeof options !== 'function') {
             decoratorOptions = { throwErr: true, funcName: propertyName, className: decoratorTargetOrFunction.constructor.name, ...options };
         } else {
-            decoratorOptions = { catchFunction: options, throwErr: typeof throwErr === 'undefined' ? true : throwErr, defaultValueOnError: defaultValueOnError, bindContext: bindContext };
+            decoratorOptions = { catchFunction: options, funcName: propertyName, throwErr: typeof throwErr === 'undefined' ? true : throwErr, defaultValueOnError: defaultValueOnError, bindContext: bindContext };
         }
 
         // function decorator, old-style

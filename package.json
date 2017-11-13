@@ -1,6 +1,6 @@
 {
   "name": "catch-error-decorator",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Method or function decorator. You have pass the parameters to call catchFunction on error by throw function, u can prevent throw error from function and log it in catchFunction, if you want",
   "main": "lib/main.js",
   "types": "lib/main.d.ts",
